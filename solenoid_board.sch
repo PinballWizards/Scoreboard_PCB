@@ -616,19 +616,19 @@ Eigth_Display
 Text Label 8500 2900 2    50   ~ 0
 Ninth_Display
 Text Label 6800 850  2    50   ~ 0
-A
+G
 Text Label 6800 1100 2    50   ~ 0
-B
+F
 Text Label 6800 1350 2    50   ~ 0
-C
+A
 Text Label 6800 1600 2    50   ~ 0
-D
+B
 Text Label 6800 1850 2    50   ~ 0
 E
 Text Label 6800 2100 2    50   ~ 0
-F
+D
 Text Label 6800 2350 2    50   ~ 0
-G
+C
 Text Label 6800 2600 2    50   ~ 0
 DP
 Text Label 5500 3300 0    50   ~ 0
