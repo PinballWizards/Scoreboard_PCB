@@ -166,43 +166,15 @@ F 3 "~" H 2850 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 3000 2950 0    50   ~ 0
-RJ45_4
-Text Label 3050 3200 3    50   ~ 0
-RJ45_5
+A
+Text Label 3050 3200 0    50   ~ 0
+B
 Text Label 1200 1400 2    50   ~ 0
 A3
-$Comp
-L Connector:Conn_01x01_Male GND1
-U 1 1 5E371F26
-P 2300 4350
-F 0 "GND1" H 2300 4450 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 2408 4440 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2300 4350 50  0001 C CNN
-F 3 "~" H 2300 4350 50  0001 C CNN
-	1    2300 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5E376948
-P 2500 4350
-F 0 "#PWR05" H 2500 4100 50  0001 C CNN
-F 1 "GND" H 2505 4177 50  0000 C CNN
-F 2 "" H 2500 4350 50  0001 C CNN
-F 3 "" H 2500 4350 50  0001 C CNN
-	1    2500 4350
-	1    0    0    -1  
-$EndComp
 Text Label 1500 4100 0    50   ~ 0
-RJ45_4
+B
 Text Label 1500 4000 0    50   ~ 0
-RJ45_5
-NoConn ~ 1500 3700
-NoConn ~ 1500 3800
-NoConn ~ 1500 3900
-NoConn ~ 1500 4200
-NoConn ~ 1500 4300
-NoConn ~ 1500 4400
+A
 $Comp
 L power:GND #PWR03
 U 1 1 5E1FB01A
@@ -225,49 +197,10 @@ F 3 "" H 2700 3200 60  0001 C CNN
 	1    2700 3200
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:RJ45 RJ0
-U 1 1 5E1D3B3B
-P 1100 4100
-F 0 "RJ0" H 1100 4650 50  0000 C CNN
-F 1 "RJ45" H 1157 4676 50  0001 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1100 4125 50  0001 C CNN
-F 3 "~" V 1100 4125 50  0001 C CNN
-	1    1100 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:RJ45 RJ1
-U 1 1 5E33DB83
-P 1100 3100
-F 0 "RJ1" H 1100 3650 50  0000 C CNN
-F 1 "RJ45" H 1157 3676 50  0001 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1100 3125 50  0001 C CNN
-F 3 "~" V 1100 3125 50  0001 C CNN
-	1    1100 3100
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1500 2700
-NoConn ~ 1500 2800
-NoConn ~ 1500 2900
-NoConn ~ 1500 3200
-NoConn ~ 1500 3300
-NoConn ~ 1500 3400
 Text Label 1500 3000 0    50   ~ 0
-RJ45_5
+A
 Text Label 1500 3100 0    50   ~ 0
-RJ45_4
-$Comp
-L Connector:Screw_Terminal_01x02 +5V_IN1
-U 1 1 5E34A542
-P 3400 1150
-F 0 "+5V_IN1" H 3400 900 50  0000 C CNN
-F 1 "MCU_PWR_Supply" H 3318 916 50  0001 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3400 1150 50  0001 C CNN
-F 3 "~" H 3400 1150 50  0001 C CNN
-	1    3400 1150
-	-1   0    0    1   
-$EndComp
+B
 $Comp
 L power:GND #PWR0101
 U 1 1 5E34A548
@@ -397,502 +330,859 @@ Wire Wire Line
 	1700 1050 1700 900 
 Text Label 2550 1400 2    50   ~ 0
 D13
+Text Label 7050 3400 0    50   ~ 0
+First_Display
+Text Label 6550 3400 2    50   ~ 0
+First_Display
+Text Label 7050 3300 0    50   ~ 0
+a
+Text Label 7050 3200 0    50   ~ 0
+b
+Text Label 6550 3500 2    50   ~ 0
+c
+Text Label 6550 3300 2    50   ~ 0
+d
+Text Label 6550 3200 2    50   ~ 0
+e
+Text Label 7050 3500 0    50   ~ 0
+f
+Text Label 7050 3600 0    50   ~ 0
+g
+Text Label 6550 3600 2    50   ~ 0
+dp
 $Comp
-L Device:R R330
-U 1 1 5E5157D2
-P 8900 850
-F 0 "R330" V 9000 850 50  0000 C CNN
-F 1 "330" V 9016 850 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal" V 8830 850 50  0001 C CNN
-F 3 "~" H 8900 850 50  0001 C CNN
-	1    8900 850 
-	0    -1   -1   0   
+L Connector_Generic:Conn_01x02 COMMS0
+U 1 1 5E558832
+P 1300 3100
+F 0 "COMMS0" H 1218 2775 50  0000 C CNN
+F 1 "Conn_01x02" H 1218 2866 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 3100 50  0001 C CNN
+F 3 "~" H 1300 3100 50  0001 C CNN
+	1    1300 3100
+	-1   0    0    1   
 $EndComp
-Text Label 9300 850  0    50   ~ 0
-D13
-Wire Wire Line
-	9300 850  9050 850 
-Wire Wire Line
-	8750 850  8500 850 
 $Comp
-L Device:R R331
-U 1 1 5E7B184C
-P 8900 1100
-F 0 "R331" V 9000 1100 50  0000 C CNN
-F 1 "330" V 9016 1100 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal" V 8830 1100 50  0001 C CNN
-F 3 "~" H 8900 1100 50  0001 C CNN
-	1    8900 1100
-	0    -1   -1   0   
+L Connector_Generic:Conn_01x02 COMMS1
+U 1 1 5E558ED4
+P 1300 4100
+F 0 "COMMS1" H 1218 3775 50  0000 C CNN
+F 1 "Conn_01x02" H 1218 3866 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 4100 50  0001 C CNN
+F 3 "~" H 1300 4100 50  0001 C CNN
+	1    1300 4100
+	-1   0    0    1   
 $EndComp
-Text Label 9300 1100 0    50   ~ 0
-D12
-Wire Wire Line
-	9300 1100 9050 1100
-Wire Wire Line
-	8750 1100 8500 1100
 $Comp
-L Device:R R332
-U 1 1 5E7B281B
-P 8900 1350
-F 0 "R332" V 9000 1350 50  0000 C CNN
-F 1 "330" V 9016 1350 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal" V 8830 1350 50  0001 C CNN
-F 3 "~" H 8900 1350 50  0001 C CNN
-	1    8900 1350
-	0    -1   -1   0   
+L Connector_Generic:Conn_01x02 +5VIN
+U 1 1 5E55F73C
+P 3400 1150
+F 0 "+5VIN" H 3318 825 50  0000 C CNN
+F 1 "Conn_01x02" H 3318 916 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3400 1150 50  0001 C CNN
+F 3 "~" H 3400 1150 50  0001 C CNN
+	1    3400 1150
+	-1   0    0    1   
 $EndComp
-Text Label 9300 1350 0    50   ~ 0
-D11
-Wire Wire Line
-	9300 1350 9050 1350
-Wire Wire Line
-	8750 1350 8500 1350
 $Comp
-L Device:R R333
-U 1 1 5E7B2825
-P 8900 1600
-F 0 "R333" V 9000 1600 50  0000 C CNN
-F 1 "R" V 9016 1600 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal" V 8830 1600 50  0001 C CNN
-F 3 "~" H 8900 1600 50  0001 C CNN
-	1    8900 1600
-	0    -1   -1   0   
+L Connector_Generic:Conn_01x01 GND1
+U 1 1 5E562C1A
+P 3950 1750
+F 0 "GND1" H 3868 1525 50  0000 C CNN
+F 1 "Conn_01x01" H 3868 1616 50  0000 C CNN
+F 2 "" H 3950 1750 50  0001 C CNN
+F 3 "~" H 3950 1750 50  0001 C CNN
+	1    3950 1750
+	-1   0    0    1   
 $EndComp
-Text Label 9300 1600 0    50   ~ 0
-D10
-Wire Wire Line
-	9300 1600 9050 1600
-Wire Wire Line
-	8750 1600 8500 1600
 $Comp
-L Device:R R334
-U 1 1 5E7B4C59
-P 8900 1850
-F 0 "R334" V 9000 1850 50  0000 C CNN
-F 1 "R" V 9016 1850 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal" V 8830 1850 50  0001 C CNN
-F 3 "~" H 8900 1850 50  0001 C CNN
-	1    8900 1850
-	0    -1   -1   0   
+L power:GND #PWR?
+U 1 1 5E56536E
+P 4250 1800
+F 0 "#PWR?" H 4250 1550 50  0001 C CNN
+F 1 "GND" H 4255 1627 50  0000 C CNN
+F 2 "" H 4250 1800 50  0001 C CNN
+F 3 "" H 4250 1800 50  0001 C CNN
+	1    4250 1800
+	1    0    0    -1  
 $EndComp
-Text Label 9300 1850 0    50   ~ 0
-D9
 Wire Wire Line
-	9300 1850 9050 1850
+	4250 1800 4250 1750
 Wire Wire Line
-	8750 1850 8500 1850
-$Comp
-L Device:R R335
-U 1 1 5E7B4C63
-P 8900 2100
-F 0 "R335" V 9000 2100 50  0000 C CNN
-F 1 "R" V 9016 2100 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal" V 8830 2100 50  0001 C CNN
-F 3 "~" H 8900 2100 50  0001 C CNN
-	1    8900 2100
-	0    -1   -1   0   
-$EndComp
-Text Label 9300 2100 0    50   ~ 0
-D6
-Wire Wire Line
-	9300 2100 9050 2100
-Wire Wire Line
-	8750 2100 8500 2100
-$Comp
-L Device:R R336
-U 1 1 5E7B4C6D
-P 8900 2350
-F 0 "R336" V 9000 2350 50  0000 C CNN
-F 1 "R" V 9016 2350 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal" V 8830 2350 50  0001 C CNN
-F 3 "~" H 8900 2350 50  0001 C CNN
-	1    8900 2350
-	0    -1   -1   0   
-$EndComp
-Text Label 9300 2350 0    50   ~ 0
-D5
-Wire Wire Line
-	9300 2350 9050 2350
-Wire Wire Line
-	8750 2350 8500 2350
-$Comp
-L Device:R R337
-U 1 1 5E7B4C77
-P 8900 2600
-F 0 "R337" V 9000 2600 50  0000 C CNN
-F 1 "R" V 9016 2600 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal" V 8830 2600 50  0001 C CNN
-F 3 "~" H 8900 2600 50  0001 C CNN
-	1    8900 2600
-	0    -1   -1   0   
-$EndComp
-Text Label 9300 2600 0    50   ~ 0
-SCL
-Wire Wire Line
-	9300 2600 9050 2600
-Wire Wire Line
-	8750 2600 8500 2600
-$Comp
-L Device:R R338
-U 1 1 5E7B5F50
-P 8900 2900
-F 0 "R338" V 9000 2900 50  0000 C CNN
-F 1 "R" V 9016 2900 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal" V 8830 2900 50  0001 C CNN
-F 3 "~" H 8900 2900 50  0001 C CNN
-	1    8900 2900
-	0    -1   -1   0   
-$EndComp
-Text Label 9300 2900 0    50   ~ 0
-SDA
-Wire Wire Line
-	9300 2900 9050 2900
-Wire Wire Line
-	8750 2900 8500 2900
-Text Label 7600 850  0    50   ~ 0
-A0
-Text Label 7600 1100 0    50   ~ 0
-A1
-Text Label 7600 1350 0    50   ~ 0
-A2
-Text Label 7600 1600 0    50   ~ 0
-A3
-Text Label 7600 1850 0    50   ~ 0
-A4
-Text Label 7600 2100 0    50   ~ 0
-A5
-Text Label 7600 2350 0    50   ~ 0
-SCK
-Text Label 7600 2600 0    50   ~ 0
-MOSI
-Wire Wire Line
-	6800 850  7600 850 
-Wire Wire Line
-	6800 1100 7600 1100
-Wire Wire Line
-	6800 1350 7600 1350
-Wire Wire Line
-	6800 1600 7600 1600
-Wire Wire Line
-	6800 1850 7600 1850
-Wire Wire Line
-	6800 2100 7600 2100
-Wire Wire Line
-	6800 2350 7600 2350
-Wire Wire Line
-	6800 2600 7600 2600
+	4250 1750 4150 1750
 $Comp
 L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_1
 U 1 1 5E443663
-P 5200 3400
-F 0 "7Seg_1" H 5250 3725 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 5250 3726 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 5200 3400 50  0001 C CNN
-F 3 "~" H 5200 3400 50  0001 C CNN
-	1    5200 3400
+P 6750 3400
+F 0 "7Seg_1" H 6800 3725 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 6800 3726 50  0001 C CNN
+F 2 "Kingbright_10-DinDisplay:SC10-21SRWA" H 6750 3400 50  0001 C CNN
+F 3 "~" H 6750 3400 50  0001 C CNN
+	1    6750 3400
 	1    0    0    -1  
 $EndComp
-Text Label 5500 3400 0    50   ~ 0
-First_Display
-Text Label 5000 3400 2    50   ~ 0
-First_Display
-Text Label 8500 850  2    50   ~ 0
-First_Display
-Text Label 8500 1100 2    50   ~ 0
+Text Label 7050 4150 0    50   ~ 0
 Second_Display
-Text Label 8500 1350 2    50   ~ 0
-Third_Display
-Text Label 8500 1600 2    50   ~ 0
-Fourth_Display
-Text Label 8500 1850 2    50   ~ 0
-Fifth_Display
-Text Label 8500 2100 2    50   ~ 0
-Sixth_Display
-Text Label 8500 2350 2    50   ~ 0
-Seventh_Display
-Text Label 8500 2600 2    50   ~ 0
-Eigth_Display
-Text Label 8500 2900 2    50   ~ 0
-Ninth_Display
-Text Label 6800 850  2    50   ~ 0
-G
-Text Label 6800 1100 2    50   ~ 0
-F
-Text Label 6800 1350 2    50   ~ 0
-A
-Text Label 6800 1600 2    50   ~ 0
-B
-Text Label 6800 1850 2    50   ~ 0
-E
-Text Label 6800 2100 2    50   ~ 0
-D
-Text Label 6800 2350 2    50   ~ 0
-C
-Text Label 6800 2600 2    50   ~ 0
-DP
-Text Label 5500 3300 0    50   ~ 0
-A
-Text Label 5500 3200 0    50   ~ 0
-B
-Text Label 5000 3500 2    50   ~ 0
-C
-Text Label 5000 3300 2    50   ~ 0
-D
-Text Label 5000 3200 2    50   ~ 0
-E
-Text Label 5500 3500 0    50   ~ 0
-F
-Text Label 5500 3600 0    50   ~ 0
-G
-Text Label 5000 3600 2    50   ~ 0
-DP
+Text Label 6550 4150 2    50   ~ 0
+Second_Display
+Text Label 7050 4050 0    50   ~ 0
+a
+Text Label 7050 3950 0    50   ~ 0
+b
+Text Label 6550 4250 2    50   ~ 0
+c
+Text Label 6550 4050 2    50   ~ 0
+d
+Text Label 6550 3950 2    50   ~ 0
+e
+Text Label 7050 4250 0    50   ~ 0
+f
+Text Label 7050 4350 0    50   ~ 0
+g
+Text Label 6550 4350 2    50   ~ 0
+dp
 $Comp
 L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_2
-U 1 1 5E45DDDE
-P 5200 4150
-F 0 "7Seg_2" H 5250 4475 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 5250 4476 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 5200 4150 50  0001 C CNN
-F 3 "~" H 5200 4150 50  0001 C CNN
-	1    5200 4150
+U 1 1 5E5EF1A9
+P 6750 4150
+F 0 "7Seg_2" H 6800 4475 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 6800 4476 50  0001 C CNN
+F 2 "Kingbright_10-DinDisplay:SC10-21SRWA" H 6750 4150 50  0001 C CNN
+F 3 "~" H 6750 4150 50  0001 C CNN
+	1    6750 4150
 	1    0    0    -1  
 $EndComp
-Text Label 5500 4150 0    50   ~ 0
-Second_Display
-Text Label 5000 4150 2    50   ~ 0
-Second_Display
-Text Label 5500 4050 0    50   ~ 0
-A
-Text Label 5500 3950 0    50   ~ 0
-B
-Text Label 5000 4250 2    50   ~ 0
-C
-Text Label 5000 4050 2    50   ~ 0
-D
-Text Label 5000 3950 2    50   ~ 0
-E
-Text Label 5500 4250 0    50   ~ 0
-F
-Text Label 5500 4350 0    50   ~ 0
-G
-Text Label 5000 4350 2    50   ~ 0
-DP
+Text Label 7050 5000 0    50   ~ 0
+Third-Display
+Text Label 6550 5000 2    50   ~ 0
+Third_Display
+Text Label 7050 4900 0    50   ~ 0
+a
+Text Label 7050 4800 0    50   ~ 0
+b
+Text Label 6550 5100 2    50   ~ 0
+c
+Text Label 6550 4900 2    50   ~ 0
+d
+Text Label 6550 4800 2    50   ~ 0
+e
+Text Label 7050 5100 0    50   ~ 0
+f
+Text Label 7050 5200 0    50   ~ 0
+g
+Text Label 6550 5200 2    50   ~ 0
+dp
 $Comp
 L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_3
-U 1 1 5E46C9BE
-P 5200 4900
-F 0 "7Seg_3" H 5250 5225 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 5250 5226 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 5200 4900 50  0001 C CNN
-F 3 "~" H 5200 4900 50  0001 C CNN
-	1    5200 4900
+U 1 1 5E5F3887
+P 6750 5000
+F 0 "7Seg_3" H 6800 5325 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 6800 5326 50  0001 C CNN
+F 2 "Kingbright_10-DinDisplay:SC10-21SRWA" H 6750 5000 50  0001 C CNN
+F 3 "~" H 6750 5000 50  0001 C CNN
+	1    6750 5000
 	1    0    0    -1  
 $EndComp
-Text Label 5500 4900 0    50   ~ 0
-Third_Display
-Text Label 5000 4900 2    50   ~ 0
-Third_Display
-Text Label 5500 4800 0    50   ~ 0
-A
-Text Label 5500 4700 0    50   ~ 0
-B
-Text Label 5000 5000 2    50   ~ 0
-C
-Text Label 5000 4800 2    50   ~ 0
-D
-Text Label 5000 4700 2    50   ~ 0
-E
-Text Label 5500 5000 0    50   ~ 0
-F
-Text Label 5500 5100 0    50   ~ 0
-G
-Text Label 5000 5100 2    50   ~ 0
-DP
+Text Label 7050 5800 0    50   ~ 0
+Fourth_Display
+Text Label 6550 5800 2    50   ~ 0
+Fourth_Display
+Text Label 7050 5700 0    50   ~ 0
+a
+Text Label 7050 5600 0    50   ~ 0
+b
+Text Label 6550 5900 2    50   ~ 0
+c
+Text Label 6550 5700 2    50   ~ 0
+d
+Text Label 6550 5600 2    50   ~ 0
+e
+Text Label 7050 5900 0    50   ~ 0
+f
+Text Label 7050 6000 0    50   ~ 0
+g
+Text Label 6550 6000 2    50   ~ 0
+dp
 $Comp
 L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_4
-U 1 1 5E46C9CE
-P 5200 5650
-F 0 "7Seg_4" H 5250 5975 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 5250 5976 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 5200 5650 50  0001 C CNN
-F 3 "~" H 5200 5650 50  0001 C CNN
-	1    5200 5650
+U 1 1 5E5F3897
+P 6750 5800
+F 0 "7Seg_4" H 6800 6125 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 6800 6126 50  0001 C CNN
+F 2 "Kingbright_10-DinDisplay:SC10-21SRWA" H 6750 5800 50  0001 C CNN
+F 3 "~" H 6750 5800 50  0001 C CNN
+	1    6750 5800
 	1    0    0    -1  
 $EndComp
-Text Label 5500 5650 0    50   ~ 0
+Text Label 1200 5700 2    50   ~ 0
+a
+Wire Wire Line
+	1200 5600 1200 5700
+$Comp
+L Device:R R300
+U 1 1 5E617795
+P 1200 4950
+F 0 "R300" H 1130 4950 50  0000 R CNN
+F 1 "300" H 1270 4905 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 1130 4950 50  0001 C CNN
+F 3 "~" H 1200 4950 50  0001 C CNN
+	1    1200 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7000 FET2
+U 1 1 5E54B174
+P 1300 5400
+F 0 "FET2" H 1505 5354 50  0000 L CNN
+F 1 "2N7000" H 1505 5445 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1500 5325 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 1300 5400 50  0001 L CNN
+	1    1300 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10k0
+U 1 1 5E617EA0
+P 1750 5400
+F 0 "R10k0" V 1850 5300 50  0000 L CNN
+F 1 "10k" H 1820 5355 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 1680 5400 50  0001 C CNN
+F 3 "~" H 1750 5400 50  0001 C CNN
+	1    1750 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 5400 1600 5400
+Wire Wire Line
+	1200 5200 1200 5100
+$Comp
+L power:+5V #PWR?
+U 1 1 5E62EED4
+P 1950 4600
+F 0 "#PWR?" H 1950 4450 50  0001 C CNN
+F 1 "+5V" H 1965 4773 50  0000 C CNN
+F 2 "" H 1950 4600 50  0001 C CNN
+F 3 "" H 1950 4600 50  0001 C CNN
+	1    1950 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 4600 1950 4700
+Wire Wire Line
+	1950 4700 1200 4700
+Wire Wire Line
+	1200 4700 1200 4800
+Text Label 2050 5400 0    50   ~ 0
+A0
+Wire Wire Line
+	2050 5400 1900 5400
+Text Label 2600 5700 2    50   ~ 0
+b
+Wire Wire Line
+	2600 5600 2600 5700
+$Comp
+L Device:R R301
+U 1 1 5E6562F0
+P 2600 4950
+F 0 "R301" H 2530 4950 50  0000 R CNN
+F 1 "300" H 2670 4905 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 4950 50  0001 C CNN
+F 3 "~" H 2600 4950 50  0001 C CNN
+	1    2600 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7000 FET1
+U 1 1 5E6562F6
+P 2700 5400
+F 0 "FET1" H 2905 5354 50  0000 L CNN
+F 1 "2N7000" H 2905 5445 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2900 5325 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2700 5400 50  0001 L CNN
+	1    2700 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10k1
+U 1 1 5E6562FC
+P 3150 5400
+F 0 "R10k1" V 3250 5300 50  0000 L CNN
+F 1 "10k" H 3220 5355 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 3080 5400 50  0001 C CNN
+F 3 "~" H 3150 5400 50  0001 C CNN
+	1    3150 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 5400 3000 5400
+Wire Wire Line
+	2600 5200 2600 5100
+Wire Wire Line
+	2600 4700 2600 4800
+Text Label 3450 5400 0    50   ~ 0
+A1
+Wire Wire Line
+	3450 5400 3300 5400
+Wire Wire Line
+	2600 4700 1950 4700
+Connection ~ 1950 4700
+Text Label 1200 7050 2    50   ~ 0
+c
+Wire Wire Line
+	1200 6950 1200 7050
+$Comp
+L Device:R R302
+U 1 1 5E661A77
+P 1200 6300
+F 0 "R302" H 1130 6300 50  0000 R CNN
+F 1 "300" H 1270 6255 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 1130 6300 50  0001 C CNN
+F 3 "~" H 1200 6300 50  0001 C CNN
+	1    1200 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7000 FET2
+U 1 1 5E661A7D
+P 1300 6750
+F 0 "FET2" H 1505 6704 50  0000 L CNN
+F 1 "2N7000" H 1505 6795 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1500 6675 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 1300 6750 50  0001 L CNN
+	1    1300 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10k2
+U 1 1 5E661A83
+P 1750 6750
+F 0 "R10k2" V 1850 6650 50  0000 L CNN
+F 1 "10k" H 1820 6705 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 1680 6750 50  0001 C CNN
+F 3 "~" H 1750 6750 50  0001 C CNN
+	1    1750 6750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 6750 1600 6750
+Wire Wire Line
+	1200 6550 1200 6450
+$Comp
+L power:+5V #PWR?
+U 1 1 5E661A8B
+P 1950 5950
+F 0 "#PWR?" H 1950 5800 50  0001 C CNN
+F 1 "+5V" H 1965 6123 50  0000 C CNN
+F 2 "" H 1950 5950 50  0001 C CNN
+F 3 "" H 1950 5950 50  0001 C CNN
+	1    1950 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 5950 1950 6050
+Wire Wire Line
+	1950 6050 1200 6050
+Wire Wire Line
+	1200 6050 1200 6150
+Text Label 2050 6750 0    50   ~ 0
+A2
+Wire Wire Line
+	2050 6750 1900 6750
+Text Label 2600 7050 2    50   ~ 0
+d
+Wire Wire Line
+	2600 6950 2600 7050
+$Comp
+L Device:R R303
+U 1 1 5E661A98
+P 2600 6300
+F 0 "R303" H 2530 6300 50  0000 R CNN
+F 1 "300" H 2670 6255 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2530 6300 50  0001 C CNN
+F 3 "~" H 2600 6300 50  0001 C CNN
+	1    2600 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7000 FET3
+U 1 1 5E661A9E
+P 2700 6750
+F 0 "FET3" H 2905 6704 50  0000 L CNN
+F 1 "2N7000" H 2905 6795 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2900 6675 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2700 6750 50  0001 L CNN
+	1    2700 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10k3
+U 1 1 5E661AA4
+P 3150 6750
+F 0 "R10k3" V 3250 6650 50  0000 L CNN
+F 1 "10k" H 3220 6705 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 3080 6750 50  0001 C CNN
+F 3 "~" H 3150 6750 50  0001 C CNN
+	1    3150 6750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 6750 3000 6750
+Wire Wire Line
+	2600 6550 2600 6450
+Wire Wire Line
+	2600 6050 2600 6150
+Text Label 3450 6750 0    50   ~ 0
+A3
+Wire Wire Line
+	3450 6750 3300 6750
+Wire Wire Line
+	2600 6050 1950 6050
+Connection ~ 1950 6050
+Text Label 4000 5650 2    50   ~ 0
+e
+Wire Wire Line
+	4000 5550 4000 5650
+$Comp
+L Device:R R304
+U 1 1 5E688F97
+P 4000 4900
+F 0 "R304" H 3930 4900 50  0000 R CNN
+F 1 "300" H 4070 4855 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 3930 4900 50  0001 C CNN
+F 3 "~" H 4000 4900 50  0001 C CNN
+	1    4000 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7000 FET4
+U 1 1 5E688F9D
+P 4100 5350
+F 0 "FET4" H 4305 5304 50  0000 L CNN
+F 1 "2N7000" H 4305 5395 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4300 5275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4100 5350 50  0001 L CNN
+	1    4100 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10k4
+U 1 1 5E688FA3
+P 4550 5350
+F 0 "R10k4" V 4650 5250 50  0000 L CNN
+F 1 "10k" H 4620 5305 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 4480 5350 50  0001 C CNN
+F 3 "~" H 4550 5350 50  0001 C CNN
+	1    4550 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 5350 4400 5350
+Wire Wire Line
+	4000 5150 4000 5050
+$Comp
+L power:+5V #PWR?
+U 1 1 5E688FAB
+P 4750 4550
+F 0 "#PWR?" H 4750 4400 50  0001 C CNN
+F 1 "+5V" H 4765 4723 50  0000 C CNN
+F 2 "" H 4750 4550 50  0001 C CNN
+F 3 "" H 4750 4550 50  0001 C CNN
+	1    4750 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4550 4750 4650
+Wire Wire Line
+	4750 4650 4000 4650
+Wire Wire Line
+	4000 4650 4000 4750
+Text Label 4850 5350 0    50   ~ 0
+A5
+Wire Wire Line
+	4850 5350 4700 5350
+Text Label 5400 5650 2    50   ~ 0
+f
+Wire Wire Line
+	5400 5550 5400 5650
+$Comp
+L Device:R R305
+U 1 1 5E688FB8
+P 5400 4900
+F 0 "R305" H 5330 4900 50  0000 R CNN
+F 1 "300" H 5470 4855 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 5330 4900 50  0001 C CNN
+F 3 "~" H 5400 4900 50  0001 C CNN
+	1    5400 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7000 FET5
+U 1 1 5E688FBE
+P 5500 5350
+F 0 "FET5" H 5705 5304 50  0000 L CNN
+F 1 "2N7000" H 5705 5395 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5700 5275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 5500 5350 50  0001 L CNN
+	1    5500 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10k5
+U 1 1 5E688FC4
+P 5950 5350
+F 0 "R10k5" V 6050 5250 50  0000 L CNN
+F 1 "10k" H 6020 5305 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 5880 5350 50  0001 C CNN
+F 3 "~" H 5950 5350 50  0001 C CNN
+	1    5950 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 5350 5800 5350
+Wire Wire Line
+	5400 5150 5400 5050
+Wire Wire Line
+	5400 4650 5400 4750
+Text Label 6250 5350 0    50   ~ 0
+SCK
+Wire Wire Line
+	6250 5350 6100 5350
+Wire Wire Line
+	5400 4650 4750 4650
+Connection ~ 4750 4650
+Text Label 4000 7000 2    50   ~ 0
+g
+Wire Wire Line
+	4000 6900 4000 7000
+$Comp
+L Device:R R306
+U 1 1 5E688FD3
+P 4000 6250
+F 0 "R306" H 3930 6250 50  0000 R CNN
+F 1 "300" H 4070 6205 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 3930 6250 50  0001 C CNN
+F 3 "~" H 4000 6250 50  0001 C CNN
+	1    4000 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7000 FET6
+U 1 1 5E688FD9
+P 4100 6700
+F 0 "FET6" H 4305 6654 50  0000 L CNN
+F 1 "2N7000" H 4305 6745 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4300 6625 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4100 6700 50  0001 L CNN
+	1    4100 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10k6
+U 1 1 5E688FDF
+P 4550 6700
+F 0 "R10k6" V 4650 6600 50  0000 L CNN
+F 1 "10k" H 4620 6655 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 4480 6700 50  0001 C CNN
+F 3 "~" H 4550 6700 50  0001 C CNN
+	1    4550 6700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 6700 4400 6700
+Wire Wire Line
+	4000 6500 4000 6400
+$Comp
+L power:+5V #PWR?
+U 1 1 5E688FE7
+P 4750 5900
+F 0 "#PWR?" H 4750 5750 50  0001 C CNN
+F 1 "+5V" H 4765 6073 50  0000 C CNN
+F 2 "" H 4750 5900 50  0001 C CNN
+F 3 "" H 4750 5900 50  0001 C CNN
+	1    4750 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5900 4750 6000
+Wire Wire Line
+	4750 6000 4000 6000
+Wire Wire Line
+	4000 6000 4000 6100
+Text Label 4850 6700 0    50   ~ 0
+MOSI
+Wire Wire Line
+	4850 6700 4700 6700
+Text Label 5400 7000 2    50   ~ 0
+dp
+Wire Wire Line
+	5400 6900 5400 7000
+$Comp
+L Device:R R307
+U 1 1 5E688FF4
+P 5400 6250
+F 0 "R307" H 5330 6250 50  0000 R CNN
+F 1 "300" H 5470 6205 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 5330 6250 50  0001 C CNN
+F 3 "~" H 5400 6250 50  0001 C CNN
+	1    5400 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7000 FET7
+U 1 1 5E688FFA
+P 5500 6700
+F 0 "FET7" H 5705 6654 50  0000 L CNN
+F 1 "2N7000" H 5705 6745 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5700 6625 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 5500 6700 50  0001 L CNN
+	1    5500 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10k7
+U 1 1 5E689000
+P 5950 6700
+F 0 "R10k7" V 6050 6600 50  0000 L CNN
+F 1 "10k" H 6020 6655 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 5880 6700 50  0001 C CNN
+F 3 "~" H 5950 6700 50  0001 C CNN
+	1    5950 6700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 6700 5800 6700
+Wire Wire Line
+	5400 6500 5400 6400
+Wire Wire Line
+	5400 6000 5400 6100
+Text Label 6250 6700 0    50   ~ 0
+MISO
+Wire Wire Line
+	6250 6700 6100 6700
+Wire Wire Line
+	5400 6000 4750 6000
+Connection ~ 4750 6000
+Text Label 8350 3700 2    50   ~ 0
+First_Display
+Wire Wire Line
+	8350 4600 8350 4700
+$Comp
+L Device:R R308
+U 1 1 5E6C1306
+P 8350 3950
+F 0 "R308" H 8280 3950 50  0000 R CNN
+F 1 "300" H 8420 3905 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 8280 3950 50  0001 C CNN
+F 3 "~" H 8350 3950 50  0001 C CNN
+	1    8350 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7000 FET8
+U 1 1 5E6C130C
+P 8450 4400
+F 0 "FET8" H 8655 4354 50  0000 L CNN
+F 1 "2N7000" H 8655 4445 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8650 4325 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 8450 4400 50  0001 L CNN
+	1    8450 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10k8
+U 1 1 5E6C1312
+P 8900 4400
+F 0 "R10k8" V 9000 4300 50  0000 L CNN
+F 1 "10k" H 8970 4355 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 8830 4400 50  0001 C CNN
+F 3 "~" H 8900 4400 50  0001 C CNN
+	1    8900 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 4400 8750 4400
+Wire Wire Line
+	8350 4200 8350 4100
+Wire Wire Line
+	8350 3700 8350 3800
+Text Label 9200 4400 0    50   ~ 0
+D13
+Wire Wire Line
+	9200 4400 9050 4400
+Text Label 9750 3700 2    50   ~ 0
+Second_Display
+Wire Wire Line
+	9750 4600 9750 4700
+$Comp
+L Device:R R309
+U 1 1 5E6C1327
+P 9750 3950
+F 0 "R309" H 9680 3950 50  0000 R CNN
+F 1 "300" H 9820 3905 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 9680 3950 50  0001 C CNN
+F 3 "~" H 9750 3950 50  0001 C CNN
+	1    9750 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7000 FET9
+U 1 1 5E6C132D
+P 9850 4400
+F 0 "FET9" H 10055 4354 50  0000 L CNN
+F 1 "2N7000" H 10055 4445 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10050 4325 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 9850 4400 50  0001 L CNN
+	1    9850 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10k9
+U 1 1 5E6C1333
+P 10300 4400
+F 0 "R10k9" V 10400 4300 50  0000 L CNN
+F 1 "10k" H 10370 4355 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 10230 4400 50  0001 C CNN
+F 3 "~" H 10300 4400 50  0001 C CNN
+	1    10300 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10050 4400 10150 4400
+Wire Wire Line
+	9750 4200 9750 4100
+Wire Wire Line
+	9750 3700 9750 3800
+Text Label 10600 4400 0    50   ~ 0
+D12
+Wire Wire Line
+	10600 4400 10450 4400
+Text Label 8350 5050 2    50   ~ 0
+Third_Display
+Wire Wire Line
+	8350 5950 8350 6050
+$Comp
+L Device:R R310
+U 1 1 5E6C1342
+P 8350 5300
+F 0 "R310" H 8280 5300 50  0000 R CNN
+F 1 "300" H 8420 5255 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 8280 5300 50  0001 C CNN
+F 3 "~" H 8350 5300 50  0001 C CNN
+	1    8350 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7000 FET10
+U 1 1 5E6C1348
+P 8450 5750
+F 0 "FET10" H 8655 5704 50  0000 L CNN
+F 1 "2N7000" H 8655 5795 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8650 5675 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 8450 5750 50  0001 L CNN
+	1    8450 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10k10
+U 1 1 5E6C134E
+P 8900 5750
+F 0 "R10k10" V 9000 5650 50  0000 L CNN
+F 1 "10k" H 8970 5705 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 8830 5750 50  0001 C CNN
+F 3 "~" H 8900 5750 50  0001 C CNN
+	1    8900 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 5750 8750 5750
+Wire Wire Line
+	8350 5550 8350 5450
+Wire Wire Line
+	8350 5050 8350 5150
+Text Label 9200 5750 0    50   ~ 0
+D11
+Wire Wire Line
+	9200 5750 9050 5750
+Text Label 9750 5050 2    50   ~ 0
 Fourth_Display
-Text Label 5000 5650 2    50   ~ 0
-Fourth_Display
-Text Label 5500 5550 0    50   ~ 0
-A
-Text Label 5500 5450 0    50   ~ 0
-B
-Text Label 5000 5750 2    50   ~ 0
-C
-Text Label 5000 5550 2    50   ~ 0
-D
-Text Label 5000 5450 2    50   ~ 0
-E
-Text Label 5500 5750 0    50   ~ 0
-F
-Text Label 5500 5850 0    50   ~ 0
-G
-Text Label 5000 5850 2    50   ~ 0
-DP
+Wire Wire Line
+	9750 5950 9750 6050
 $Comp
-L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_5
-U 1 1 5E4746A0
-P 7200 3400
-F 0 "7Seg_5" H 7250 3725 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 7250 3726 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 7200 3400 50  0001 C CNN
-F 3 "~" H 7200 3400 50  0001 C CNN
-	1    7200 3400
+L Device:R R311
+U 1 1 5E6C1363
+P 9750 5300
+F 0 "R311" H 9680 5300 50  0000 R CNN
+F 1 "300" H 9820 5255 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 9680 5300 50  0001 C CNN
+F 3 "~" H 9750 5300 50  0001 C CNN
+	1    9750 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7000 FET11
+U 1 1 5E6C1369
+P 9850 5750
+F 0 "FET11" H 10055 5704 50  0000 L CNN
+F 1 "2N7000" H 10055 5795 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10050 5675 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 9850 5750 50  0001 L CNN
+	1    9850 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10k11
+U 1 1 5E6C136F
+P 10300 5750
+F 0 "R10k11" V 10400 5650 50  0000 L CNN
+F 1 "10k" H 10370 5705 50  0001 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 10230 5750 50  0001 C CNN
+F 3 "~" H 10300 5750 50  0001 C CNN
+	1    10300 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10050 5750 10150 5750
+Wire Wire Line
+	9750 5550 9750 5450
+Wire Wire Line
+	9750 5050 9750 5150
+Text Label 10600 5750 0    50   ~ 0
+D10
+Wire Wire Line
+	10600 5750 10450 5750
+$Comp
+L power:GND #PWR?
+U 1 1 5E702601
+P 8950 4850
+F 0 "#PWR?" H 8950 4600 50  0001 C CNN
+F 1 "GND" H 8955 4677 50  0000 C CNN
+F 2 "" H 8950 4850 50  0001 C CNN
+F 3 "" H 8950 4850 50  0001 C CNN
+	1    8950 4850
 	1    0    0    -1  
 $EndComp
-Text Label 7500 3400 0    50   ~ 0
-Fifth_Display
-Text Label 7000 3400 2    50   ~ 0
-Fifth_Display
-Text Label 7500 3300 0    50   ~ 0
-A
-Text Label 7500 3200 0    50   ~ 0
-B
-Text Label 7000 3500 2    50   ~ 0
-C
-Text Label 7000 3300 2    50   ~ 0
-D
-Text Label 7000 3200 2    50   ~ 0
-E
-Text Label 7500 3500 0    50   ~ 0
-F
-Text Label 7500 3600 0    50   ~ 0
-G
-Text Label 7000 3600 2    50   ~ 0
-DP
 $Comp
-L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_6
-U 1 1 5E4746B0
-P 7200 4150
-F 0 "7Seg_6" H 7250 4475 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 7250 4476 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 7200 4150 50  0001 C CNN
-F 3 "~" H 7200 4150 50  0001 C CNN
-	1    7200 4150
+L power:GND #PWR?
+U 1 1 5E70471C
+P 8950 6200
+F 0 "#PWR?" H 8950 5950 50  0001 C CNN
+F 1 "GND" H 8955 6027 50  0000 C CNN
+F 2 "" H 8950 6200 50  0001 C CNN
+F 3 "" H 8950 6200 50  0001 C CNN
+	1    8950 6200
 	1    0    0    -1  
 $EndComp
-Text Label 7500 4150 0    50   ~ 0
-Sixth_Display
-Text Label 7000 4150 2    50   ~ 0
-Sixth_Display
-Text Label 7500 4050 0    50   ~ 0
-A
-Text Label 7500 3950 0    50   ~ 0
-B
-Text Label 7000 4250 2    50   ~ 0
-C
-Text Label 7000 4050 2    50   ~ 0
-D
-Text Label 7000 3950 2    50   ~ 0
-E
-Text Label 7500 4250 0    50   ~ 0
-F
-Text Label 7500 4350 0    50   ~ 0
-G
-Text Label 7000 4350 2    50   ~ 0
-DP
-$Comp
-L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_7
-U 1 1 5E4746C0
-P 7200 4900
-F 0 "7Seg_7" H 7250 5225 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 7250 5226 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 7200 4900 50  0001 C CNN
-F 3 "~" H 7200 4900 50  0001 C CNN
-	1    7200 4900
-	1    0    0    -1  
-$EndComp
-Text Label 7500 4900 0    50   ~ 0
-Seventh_Display
-Text Label 7000 4900 2    50   ~ 0
-Seventh_Display
-Text Label 7500 4800 0    50   ~ 0
-A
-Text Label 7500 4700 0    50   ~ 0
-B
-Text Label 7000 5000 2    50   ~ 0
-C
-Text Label 7000 4800 2    50   ~ 0
-D
-Text Label 7000 4700 2    50   ~ 0
-E
-Text Label 7500 5000 0    50   ~ 0
-F
-Text Label 7500 5100 0    50   ~ 0
-G
-Text Label 7000 5100 2    50   ~ 0
-DP
-$Comp
-L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_8
-U 1 1 5E4746D0
-P 7200 5650
-F 0 "7Seg_8" H 7250 5975 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 7250 5976 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 7200 5650 50  0001 C CNN
-F 3 "~" H 7200 5650 50  0001 C CNN
-	1    7200 5650
-	1    0    0    -1  
-$EndComp
-Text Label 7500 5650 0    50   ~ 0
-Eigth_Display
-Text Label 7000 5650 2    50   ~ 0
-Eigth_Display
-Text Label 7500 5550 0    50   ~ 0
-A
-Text Label 7500 5450 0    50   ~ 0
-B
-Text Label 7000 5750 2    50   ~ 0
-C
-Text Label 7000 5550 2    50   ~ 0
-D
-Text Label 7000 5450 2    50   ~ 0
-E
-Text Label 7500 5750 0    50   ~ 0
-F
-Text Label 7500 5850 0    50   ~ 0
-G
-Text Label 7000 5850 2    50   ~ 0
-DP
-$Comp
-L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_9
-U 1 1 5E47904C
-P 9050 4550
-F 0 "7Seg_9" H 9100 4875 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 9100 4876 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 9050 4550 50  0001 C CNN
-F 3 "~" H 9050 4550 50  0001 C CNN
-	1    9050 4550
-	1    0    0    -1  
-$EndComp
-Text Label 9350 4550 0    50   ~ 0
-Ninth_Display
-Text Label 8850 4550 2    50   ~ 0
-Ninth_Display
-Text Label 9350 4450 0    50   ~ 0
-A
-Text Label 9350 4350 0    50   ~ 0
-B
-Text Label 8850 4650 2    50   ~ 0
-C
-Text Label 8850 4450 2    50   ~ 0
-D
-Text Label 8850 4350 2    50   ~ 0
-E
-Text Label 9350 4650 0    50   ~ 0
-F
-Text Label 9350 4750 0    50   ~ 0
-G
-Text Label 8850 4750 2    50   ~ 0
-DP
+Wire Wire Line
+	9750 6050 8950 6050
+Wire Wire Line
+	8950 6200 8950 6050
+Connection ~ 8950 6050
+Wire Wire Line
+	8950 6050 8350 6050
+Wire Wire Line
+	8350 4700 8950 4700
+Wire Wire Line
+	8950 4850 8950 4700
+Connection ~ 8950 4700
+Wire Wire Line
+	8950 4700 9750 4700
 $EndSCHEMATC
