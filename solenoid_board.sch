@@ -166,43 +166,15 @@ F 3 "~" H 2850 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 3000 2950 0    50   ~ 0
-RJ45_4
-Text Label 3050 3200 3    50   ~ 0
-RJ45_5
+A
+Text Label 3050 3200 0    50   ~ 0
+B
 Text Label 1200 1400 2    50   ~ 0
 A3
-$Comp
-L Connector:Conn_01x01_Male GND1
-U 1 1 5E371F26
-P 2300 4350
-F 0 "GND1" H 2300 4450 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 2408 4440 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2300 4350 50  0001 C CNN
-F 3 "~" H 2300 4350 50  0001 C CNN
-	1    2300 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5E376948
-P 2500 4350
-F 0 "#PWR05" H 2500 4100 50  0001 C CNN
-F 1 "GND" H 2505 4177 50  0000 C CNN
-F 2 "" H 2500 4350 50  0001 C CNN
-F 3 "" H 2500 4350 50  0001 C CNN
-	1    2500 4350
-	1    0    0    -1  
-$EndComp
 Text Label 1500 4100 0    50   ~ 0
-RJ45_4
+B
 Text Label 1500 4000 0    50   ~ 0
-RJ45_5
-NoConn ~ 1500 3700
-NoConn ~ 1500 3800
-NoConn ~ 1500 3900
-NoConn ~ 1500 4200
-NoConn ~ 1500 4300
-NoConn ~ 1500 4400
+A
 $Comp
 L power:GND #PWR03
 U 1 1 5E1FB01A
@@ -225,49 +197,10 @@ F 3 "" H 2700 3200 60  0001 C CNN
 	1    2700 3200
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:RJ45 RJ0
-U 1 1 5E1D3B3B
-P 1100 4100
-F 0 "RJ0" H 1100 4650 50  0000 C CNN
-F 1 "RJ45" H 1157 4676 50  0001 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1100 4125 50  0001 C CNN
-F 3 "~" V 1100 4125 50  0001 C CNN
-	1    1100 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:RJ45 RJ1
-U 1 1 5E33DB83
-P 1100 3100
-F 0 "RJ1" H 1100 3650 50  0000 C CNN
-F 1 "RJ45" H 1157 3676 50  0001 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1100 3125 50  0001 C CNN
-F 3 "~" V 1100 3125 50  0001 C CNN
-	1    1100 3100
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1500 2700
-NoConn ~ 1500 2800
-NoConn ~ 1500 2900
-NoConn ~ 1500 3200
-NoConn ~ 1500 3300
-NoConn ~ 1500 3400
 Text Label 1500 3000 0    50   ~ 0
-RJ45_5
+A
 Text Label 1500 3100 0    50   ~ 0
-RJ45_4
-$Comp
-L Connector:Screw_Terminal_01x02 +5V_IN1
-U 1 1 5E34A542
-P 3400 1150
-F 0 "+5V_IN1" H 3400 900 50  0000 C CNN
-F 1 "MCU_PWR_Supply" H 3318 916 50  0001 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3400 1150 50  0001 C CNN
-F 3 "~" H 3400 1150 50  0001 C CNN
-	1    3400 1150
-	-1   0    0    1   
-$EndComp
+B
 $Comp
 L power:GND #PWR0101
 U 1 1 5E34A548
@@ -653,7 +586,7 @@ U 1 1 5E45DDDE
 P 5200 4150
 F 0 "7Seg_2" H 5250 4475 50  0000 C CNN
 F 1 "Conn_02x05_Top_Bottom" H 5250 4476 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 5200 4150 50  0001 C CNN
+F 2 "digikey-footprints:DIP-10_W10.16mm" H 5200 4150 50  0001 C CNN
 F 3 "~" H 5200 4150 50  0001 C CNN
 	1    5200 4150
 	1    0    0    -1  
@@ -684,7 +617,7 @@ U 1 1 5E46C9BE
 P 5200 4900
 F 0 "7Seg_3" H 5250 5225 50  0000 C CNN
 F 1 "Conn_02x05_Top_Bottom" H 5250 5226 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 5200 4900 50  0001 C CNN
+F 2 "digikey-footprints:DIP-10_W10.16mm" H 5200 4900 50  0001 C CNN
 F 3 "~" H 5200 4900 50  0001 C CNN
 	1    5200 4900
 	1    0    0    -1  
@@ -715,7 +648,7 @@ U 1 1 5E46C9CE
 P 5200 5650
 F 0 "7Seg_4" H 5250 5975 50  0000 C CNN
 F 1 "Conn_02x05_Top_Bottom" H 5250 5976 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 5200 5650 50  0001 C CNN
+F 2 "digikey-footprints:DIP-10_W10.16mm" H 5200 5650 50  0001 C CNN
 F 3 "~" H 5200 5650 50  0001 C CNN
 	1    5200 5650
 	1    0    0    -1  
@@ -741,158 +674,62 @@ G
 Text Label 5000 5850 2    50   ~ 0
 DP
 $Comp
-L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_5
-U 1 1 5E4746A0
-P 7200 3400
-F 0 "7Seg_5" H 7250 3725 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 7250 3726 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 7200 3400 50  0001 C CNN
-F 3 "~" H 7200 3400 50  0001 C CNN
-	1    7200 3400
-	1    0    0    -1  
+L Connector_Generic:Conn_01x02 COMMS0
+U 1 1 5E558832
+P 1300 3100
+F 0 "COMMS0" H 1218 2775 50  0000 C CNN
+F 1 "Conn_01x02" H 1218 2866 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 3100 50  0001 C CNN
+F 3 "~" H 1300 3100 50  0001 C CNN
+	1    1300 3100
+	-1   0    0    1   
 $EndComp
-Text Label 7500 3400 0    50   ~ 0
-Fifth_Display
-Text Label 7000 3400 2    50   ~ 0
-Fifth_Display
-Text Label 7500 3300 0    50   ~ 0
-A
-Text Label 7500 3200 0    50   ~ 0
-B
-Text Label 7000 3500 2    50   ~ 0
-C
-Text Label 7000 3300 2    50   ~ 0
-D
-Text Label 7000 3200 2    50   ~ 0
-E
-Text Label 7500 3500 0    50   ~ 0
-F
-Text Label 7500 3600 0    50   ~ 0
-G
-Text Label 7000 3600 2    50   ~ 0
-DP
 $Comp
-L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_6
-U 1 1 5E4746B0
-P 7200 4150
-F 0 "7Seg_6" H 7250 4475 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 7250 4476 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 7200 4150 50  0001 C CNN
-F 3 "~" H 7200 4150 50  0001 C CNN
-	1    7200 4150
-	1    0    0    -1  
+L Connector_Generic:Conn_01x02 COMMS1
+U 1 1 5E558ED4
+P 1300 4100
+F 0 "COMMS1" H 1218 3775 50  0000 C CNN
+F 1 "Conn_01x02" H 1218 3866 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 4100 50  0001 C CNN
+F 3 "~" H 1300 4100 50  0001 C CNN
+	1    1300 4100
+	-1   0    0    1   
 $EndComp
-Text Label 7500 4150 0    50   ~ 0
-Sixth_Display
-Text Label 7000 4150 2    50   ~ 0
-Sixth_Display
-Text Label 7500 4050 0    50   ~ 0
-A
-Text Label 7500 3950 0    50   ~ 0
-B
-Text Label 7000 4250 2    50   ~ 0
-C
-Text Label 7000 4050 2    50   ~ 0
-D
-Text Label 7000 3950 2    50   ~ 0
-E
-Text Label 7500 4250 0    50   ~ 0
-F
-Text Label 7500 4350 0    50   ~ 0
-G
-Text Label 7000 4350 2    50   ~ 0
-DP
 $Comp
-L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_7
-U 1 1 5E4746C0
-P 7200 4900
-F 0 "7Seg_7" H 7250 5225 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 7250 5226 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 7200 4900 50  0001 C CNN
-F 3 "~" H 7200 4900 50  0001 C CNN
-	1    7200 4900
-	1    0    0    -1  
+L Connector_Generic:Conn_01x02 +5VIN
+U 1 1 5E55F73C
+P 3400 1150
+F 0 "+5VIN" H 3318 825 50  0000 C CNN
+F 1 "Conn_01x02" H 3318 916 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3400 1150 50  0001 C CNN
+F 3 "~" H 3400 1150 50  0001 C CNN
+	1    3400 1150
+	-1   0    0    1   
 $EndComp
-Text Label 7500 4900 0    50   ~ 0
-Seventh_Display
-Text Label 7000 4900 2    50   ~ 0
-Seventh_Display
-Text Label 7500 4800 0    50   ~ 0
-A
-Text Label 7500 4700 0    50   ~ 0
-B
-Text Label 7000 5000 2    50   ~ 0
-C
-Text Label 7000 4800 2    50   ~ 0
-D
-Text Label 7000 4700 2    50   ~ 0
-E
-Text Label 7500 5000 0    50   ~ 0
-F
-Text Label 7500 5100 0    50   ~ 0
-G
-Text Label 7000 5100 2    50   ~ 0
-DP
 $Comp
-L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_8
-U 1 1 5E4746D0
-P 7200 5650
-F 0 "7Seg_8" H 7250 5975 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 7250 5976 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 7200 5650 50  0001 C CNN
-F 3 "~" H 7200 5650 50  0001 C CNN
-	1    7200 5650
-	1    0    0    -1  
+L Connector_Generic:Conn_01x01 GND1
+U 1 1 5E562C1A
+P 3950 1750
+F 0 "GND1" H 3868 1525 50  0000 C CNN
+F 1 "Conn_01x01" H 3868 1616 50  0000 C CNN
+F 2 "" H 3950 1750 50  0001 C CNN
+F 3 "~" H 3950 1750 50  0001 C CNN
+	1    3950 1750
+	-1   0    0    1   
 $EndComp
-Text Label 7500 5650 0    50   ~ 0
-Eigth_Display
-Text Label 7000 5650 2    50   ~ 0
-Eigth_Display
-Text Label 7500 5550 0    50   ~ 0
-A
-Text Label 7500 5450 0    50   ~ 0
-B
-Text Label 7000 5750 2    50   ~ 0
-C
-Text Label 7000 5550 2    50   ~ 0
-D
-Text Label 7000 5450 2    50   ~ 0
-E
-Text Label 7500 5750 0    50   ~ 0
-F
-Text Label 7500 5850 0    50   ~ 0
-G
-Text Label 7000 5850 2    50   ~ 0
-DP
 $Comp
-L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_9
-U 1 1 5E47904C
-P 9050 4550
-F 0 "7Seg_9" H 9100 4875 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 9100 4876 50  0001 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 9050 4550 50  0001 C CNN
-F 3 "~" H 9050 4550 50  0001 C CNN
-	1    9050 4550
+L power:GND #PWR?
+U 1 1 5E56536E
+P 4250 1800
+F 0 "#PWR?" H 4250 1550 50  0001 C CNN
+F 1 "GND" H 4255 1627 50  0000 C CNN
+F 2 "" H 4250 1800 50  0001 C CNN
+F 3 "" H 4250 1800 50  0001 C CNN
+	1    4250 1800
 	1    0    0    -1  
 $EndComp
-Text Label 9350 4550 0    50   ~ 0
-Ninth_Display
-Text Label 8850 4550 2    50   ~ 0
-Ninth_Display
-Text Label 9350 4450 0    50   ~ 0
-A
-Text Label 9350 4350 0    50   ~ 0
-B
-Text Label 8850 4650 2    50   ~ 0
-C
-Text Label 8850 4450 2    50   ~ 0
-D
-Text Label 8850 4350 2    50   ~ 0
-E
-Text Label 9350 4650 0    50   ~ 0
-F
-Text Label 9350 4750 0    50   ~ 0
-G
-Text Label 8850 4750 2    50   ~ 0
-DP
+Wire Wire Line
+	4250 1800 4250 1750
+Wire Wire Line
+	4250 1750 4150 1750
 $EndSCHEMATC
