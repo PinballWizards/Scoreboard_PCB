@@ -1191,39 +1191,12 @@ F 3 "~" H 6600 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 1400 8650 1500
-$Comp
-L power:GND #PWR0122
-U 1 1 5E6D9799
-P 8650 1500
-F 0 "#PWR0122" H 8650 1250 50  0001 C CNN
-F 1 "GND" H 8655 1327 50  0000 C CNN
-F 2 "" H 8650 1500 50  0001 C CNN
-F 3 "" H 8650 1500 50  0001 C CNN
-	1    8650 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C0.1uF1
-U 1 1 5E6D979F
-P 8650 1250
-F 0 "C0.1uF1" H 8765 1250 50  0000 L CNN
-F 1 "0.1 uF" H 8765 1205 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 8688 1100 50  0001 C CNN
-F 3 "~" H 8650 1250 50  0001 C CNN
-	1    8650 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	6600 900  6400 900 
 Connection ~ 6400 900 
 Wire Wire Line
 	6400 900  6400 800 
 Wire Wire Line
 	7150 800  7150 1250
-Wire Wire Line
-	8650 1100 8650 1000
-Connection ~ 8650 1000
 Wire Wire Line
 	5050 1300 5050 1550
 Wire Wire Line
@@ -1246,13 +1219,13 @@ f
 Text Label 9500 1250 2    50   ~ 0
 g
 Text Label 9500 1650 2    50   ~ 0
-Y7
-Text Label 9500 1550 2    50   ~ 0
-Y6
-Text Label 9500 1450 2    50   ~ 0
-Y5
-Text Label 9500 1350 2    50   ~ 0
 Y4
+Text Label 9500 1550 2    50   ~ 0
+Y5
+Text Label 9500 1450 2    50   ~ 0
+Y6
+Text Label 9500 1350 2    50   ~ 0
+Y7
 Text Label 9500 1750 2    50   ~ 0
 D10
 Text Label 9500 1850 2    50   ~ 0
@@ -1291,13 +1264,13 @@ f
 Text Label 10850 1250 0    50   ~ 0
 g
 Text Label 10850 1650 0    50   ~ 0
-Y7
-Text Label 10850 1550 0    50   ~ 0
-Y6
-Text Label 10850 1450 0    50   ~ 0
-Y5
-Text Label 10850 1350 0    50   ~ 0
 Y4
+Text Label 10850 1550 0    50   ~ 0
+Y5
+Text Label 10850 1450 0    50   ~ 0
+Y6
+Text Label 10850 1350 0    50   ~ 0
+Y7
 Text Label 10850 1750 0    50   ~ 0
 D10
 Text Label 10850 1850 0    50   ~ 0
