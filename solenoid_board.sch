@@ -210,8 +210,6 @@ Text Label 2550 4900 0    50   ~ 0
 f
 Text Label 2550 5000 0    50   ~ 0
 g
-Text Label 2050 5000 2    50   ~ 0
-dp
 $Comp
 L Connector_Generic:Conn_01x02 +5VIN1
 U 1 1 5E55F73C
@@ -278,8 +276,6 @@ Text Label 2550 5650 0    50   ~ 0
 f
 Text Label 2550 5750 0    50   ~ 0
 g
-Text Label 2050 5750 2    50   ~ 0
-dp
 $Comp
 L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_2
 U 1 1 5E5EF1A9
@@ -309,8 +305,6 @@ Text Label 2550 6500 0    50   ~ 0
 f
 Text Label 2550 6600 0    50   ~ 0
 g
-Text Label 2050 6600 2    50   ~ 0
-dp
 $Comp
 L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_3
 U 1 1 5E5F3887
@@ -340,8 +334,6 @@ Text Label 2550 7300 0    50   ~ 0
 f
 Text Label 2550 7400 0    50   ~ 0
 g
-Text Label 2050 7400 2    50   ~ 0
-dp
 $Comp
 L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_4
 U 1 1 5E5F3897
@@ -450,13 +442,13 @@ Wire Wire Line
 Wire Wire Line
 	5650 1550 5050 1550
 Text Label 7650 1000 2    50   ~ 0
-D9
-Text Label 7650 1100 2    50   ~ 0
-D6
-Text Label 7650 1500 2    50   ~ 0
-D5
-Text Label 7650 1600 2    50   ~ 0
 D10
+Text Label 7650 1100 2    50   ~ 0
+D9
+Text Label 7650 1500 2    50   ~ 0
+D6
+Text Label 7650 1600 2    50   ~ 0
+D5
 Text Label 7650 1200 2    50   ~ 0
 LT
 Text Label 7650 1300 2    50   ~ 0
@@ -756,8 +748,6 @@ Text Label 4750 4950 0    50   ~ 0
 f
 Text Label 4750 5050 0    50   ~ 0
 g
-Text Label 4250 5050 2    50   ~ 0
-dp
 $Comp
 L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_5
 U 1 1 5E88A169
@@ -787,8 +777,6 @@ Text Label 4750 5700 0    50   ~ 0
 f
 Text Label 4750 5800 0    50   ~ 0
 g
-Text Label 4250 5800 2    50   ~ 0
-dp
 $Comp
 L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_6
 U 1 1 5E88A179
@@ -818,8 +806,6 @@ Text Label 4750 6550 0    50   ~ 0
 f
 Text Label 4750 6650 0    50   ~ 0
 g
-Text Label 4250 6650 2    50   ~ 0
-dp
 $Comp
 L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_7
 U 1 1 5E88A189
@@ -849,8 +835,6 @@ Text Label 4750 7350 0    50   ~ 0
 f
 Text Label 4750 7450 0    50   ~ 0
 g
-Text Label 4250 7450 2    50   ~ 0
-dp
 $Comp
 L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_8
 U 1 1 5E88A199
@@ -1379,10 +1363,10 @@ Wire Wire Line
 Wire Wire Line
 	8650 1300 8650 1400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 5E98C6F5
 P 8650 1400
-F 0 "#PWR?" H 8650 1150 50  0001 C CNN
+F 0 "#PWR0111" H 8650 1150 50  0001 C CNN
 F 1 "GND" H 8655 1227 50  0000 C CNN
 F 2 "" H 8650 1400 50  0001 C CNN
 F 3 "" H 8650 1400 50  0001 C CNN
@@ -1403,4 +1387,12 @@ $EndComp
 Wire Wire Line
 	8150 1000 8650 1000
 Connection ~ 8650 1000
+NoConn ~ 4250 5050
+NoConn ~ 2050 5000
+NoConn ~ 2050 5750
+NoConn ~ 2050 6600
+NoConn ~ 2050 7400
+NoConn ~ 4250 7450
+NoConn ~ 4250 6650
+NoConn ~ 4250 5800
 $EndSCHEMATC

@@ -450,13 +450,13 @@ Wire Wire Line
 Wire Wire Line
 	5650 1550 5050 1550
 Text Label 7650 1000 2    50   ~ 0
-D9
-Text Label 7650 1100 2    50   ~ 0
-D6
-Text Label 7650 1500 2    50   ~ 0
-D5
-Text Label 7650 1600 2    50   ~ 0
 D10
+Text Label 7650 1100 2    50   ~ 0
+D9
+Text Label 7650 1500 2    50   ~ 0
+D6
+Text Label 7650 1600 2    50   ~ 0
+D5
 Text Label 7650 1200 2    50   ~ 0
 LT
 Text Label 7650 1300 2    50   ~ 0
@@ -531,8 +531,6 @@ Wire Wire Line
 	7450 1300 7650 1300
 Wire Wire Line
 	8650 800  8650 1000
-Wire Wire Line
-	8650 1000 8150 1000
 Wire Wire Line
 	6600 1200 6600 1300
 $Comp
@@ -761,10 +759,10 @@ g
 Text Label 4250 5050 2    50   ~ 0
 dp
 $Comp
-L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_?
+L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_5
 U 1 1 5E88A169
 P 4450 4850
-F 0 "7Seg_?" H 4500 5175 50  0000 C CNN
+F 0 "7Seg_5" H 4500 5175 50  0000 C CNN
 F 1 "Conn_02x05_Top_Bottom" H 4500 5176 50  0001 C CNN
 F 2 "Kingbright_10-DinDisplay:SC10-21SRWA" H 4450 4850 50  0001 C CNN
 F 3 "~" H 4450 4850 50  0001 C CNN
@@ -792,10 +790,10 @@ g
 Text Label 4250 5800 2    50   ~ 0
 dp
 $Comp
-L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_?
+L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_6
 U 1 1 5E88A179
 P 4450 5600
-F 0 "7Seg_?" H 4500 5925 50  0000 C CNN
+F 0 "7Seg_6" H 4500 5925 50  0000 C CNN
 F 1 "Conn_02x05_Top_Bottom" H 4500 5926 50  0001 C CNN
 F 2 "Kingbright_10-DinDisplay:SC10-21SRWA" H 4450 5600 50  0001 C CNN
 F 3 "~" H 4450 5600 50  0001 C CNN
@@ -823,10 +821,10 @@ g
 Text Label 4250 6650 2    50   ~ 0
 dp
 $Comp
-L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_?
+L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_7
 U 1 1 5E88A189
 P 4450 6450
-F 0 "7Seg_?" H 4500 6775 50  0000 C CNN
+F 0 "7Seg_7" H 4500 6775 50  0000 C CNN
 F 1 "Conn_02x05_Top_Bottom" H 4500 6776 50  0001 C CNN
 F 2 "Kingbright_10-DinDisplay:SC10-21SRWA" H 4450 6450 50  0001 C CNN
 F 3 "~" H 4450 6450 50  0001 C CNN
@@ -854,10 +852,10 @@ g
 Text Label 4250 7450 2    50   ~ 0
 dp
 $Comp
-L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_?
+L Connector_Generic:Conn_02x05_Top_Bottom 7Seg_8
 U 1 1 5E88A199
 P 4450 7250
-F 0 "7Seg_?" H 4500 7575 50  0000 C CNN
+F 0 "7Seg_8" H 4500 7575 50  0000 C CNN
 F 1 "Conn_02x05_Top_Bottom" H 4500 7576 50  0001 C CNN
 F 2 "Kingbright_10-DinDisplay:SC10-21SRWA" H 4450 7250 50  0001 C CNN
 F 3 "~" H 4450 7250 50  0001 C CNN
@@ -901,10 +899,10 @@ $EndComp
 Wire Wire Line
 	6900 2350 6900 2250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 5E89AB2C
 P 6100 3450
-F 0 "#PWR?" H 6100 3200 50  0001 C CNN
+F 0 "#PWR0105" H 6100 3200 50  0001 C CNN
 F 1 "GND" H 6105 3277 50  0000 C CNN
 F 2 "" H 6100 3450 50  0001 C CNN
 F 3 "" H 6100 3450 50  0001 C CNN
@@ -1029,10 +1027,10 @@ $EndComp
 Wire Wire Line
 	10000 2350 10000 2250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 5E90CB7E
 P 9200 3450
-F 0 "#PWR?" H 9200 3200 50  0001 C CNN
+F 0 "#PWR0106" H 9200 3200 50  0001 C CNN
 F 1 "GND" H 9205 3277 50  0000 C CNN
 F 2 "" H 9200 3450 50  0001 C CNN
 F 3 "" H 9200 3450 50  0001 C CNN
@@ -1157,10 +1155,10 @@ $EndComp
 Wire Wire Line
 	6900 3900 6900 3800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 5E922174
 P 6100 5000
-F 0 "#PWR?" H 6100 4750 50  0001 C CNN
+F 0 "#PWR0108" H 6100 4750 50  0001 C CNN
 F 1 "GND" H 6105 4827 50  0000 C CNN
 F 2 "" H 6100 5000 50  0001 C CNN
 F 3 "" H 6100 5000 50  0001 C CNN
@@ -1285,10 +1283,10 @@ $EndComp
 Wire Wire Line
 	10000 3900 10000 3800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0109
 U 1 1 5E9221BA
 P 9200 5000
-F 0 "#PWR?" H 9200 4750 50  0001 C CNN
+F 0 "#PWR0109" H 9200 4750 50  0001 C CNN
 F 1 "GND" H 9205 4827 50  0000 C CNN
 F 2 "" H 9200 5000 50  0001 C CNN
 F 3 "" H 9200 5000 50  0001 C CNN
@@ -1378,4 +1376,31 @@ Wire Wire Line
 Connection ~ 10000 4850
 Wire Wire Line
 	10000 4850 9350 4850
+Wire Wire Line
+	8650 1300 8650 1400
+$Comp
+L power:GND #PWR?
+U 1 1 5E98C6F5
+P 8650 1400
+F 0 "#PWR?" H 8650 1150 50  0001 C CNN
+F 1 "GND" H 8655 1227 50  0000 C CNN
+F 2 "" H 8650 1400 50  0001 C CNN
+F 3 "" H 8650 1400 50  0001 C CNN
+	1    8650 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C0.1uF1
+U 1 1 5E98C6FB
+P 8650 1150
+F 0 "C0.1uF1" H 8765 1150 50  0000 L CNN
+F 1 "0.1 uF" H 8765 1105 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 8688 1000 50  0001 C CNN
+F 3 "~" H 8650 1150 50  0001 C CNN
+	1    8650 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 1000 8650 1000
+Connection ~ 8650 1000
 $EndSCHEMATC
